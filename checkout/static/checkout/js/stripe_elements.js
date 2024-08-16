@@ -47,6 +47,8 @@ card.addEventListener('change', function (event) {
 });
 
 // handle form submission
+var form = document.getElementById('payment-form');
+
 form.addEventListener('submit', function(ev) {
     ev.preventDefault();
     card.update({ 'disabled': true});
