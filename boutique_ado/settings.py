@@ -27,7 +27,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['boutique-ado-charlie.herokuapp.com', '8000-enrightc-boutiqueado-q1ez3atgqh8.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['boutique-ado-charlie.herokuapp.com', '8000-enrightc-boutiqueado-q1ez3atgqh8.ws.codeinstitute-ide.net', 'boutique-ado-charlie-26b67c0b9011.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ["https://*.herokuapp.com", "https://*.codeinstitute-ide.net"] # allows admin login
 
