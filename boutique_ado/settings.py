@@ -34,9 +34,15 @@ ALLOWED_HOSTS = ['boutique-ado-charlie.herokuapp.com',
                  'localhost',
                  '127.0.0.1',
                  '0.0.0.0',
-                 'boutique-ado-charlie-880ca176ac72.herokuapp.com']
+                 ]
 
-CSRF_TRUSTED_ORIGINS = ["https://*.herokuapp.com", "https://*.codeinstitute-ide.net"] # allows admin login
+ # allows admin login
+CSRF_TRUSTED_ORIGINS = [
+    "https://boutique-ado-charlie-880ca176ac72.herokuapp.com",
+    "https://*.herokuapp.com",
+    "https://*.codeinstitute-ide.net"
+]
+
 
 # Application definition
 
