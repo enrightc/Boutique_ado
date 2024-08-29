@@ -27,7 +27,14 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['boutique-ado-charlie.herokuapp.com', '8000-enrightc-boutiqueado-q1ez3atgqh8.ws.codeinstitute-ide.net', 'boutique-ado-charlie-eb58a8a10feb.herokuapp.com']
+ALLOWED_HOSTS = ['boutique-ado-charlie.herokuapp.com', 
+                 '8000-enrightc-boutiqueado-q1ez3atgqh8.ws.codeinstitute-ide.net', 
+                 'boutique-ado-charlie-eb58a8a10feb.herokuapp.com',
+                 'boutique-ado-charlie-880ca176ac72.herokuapp.com',
+                 'localhost',
+                 '127.0.0.1',
+                 '0.0.0.0',
+                 'boutique-ado-charlie-880ca176ac72.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ["https://*.herokuapp.com", "https://*.codeinstitute-ide.net"] # allows admin login
 
